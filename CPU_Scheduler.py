@@ -5,6 +5,8 @@ This project simulates multiple CPU Schedulers
 3. RRScheduler : RR (Round Robin) Scheduler
 4. Lottery Scheduler : Tickets based on total time to execute process
 
+Lottery scheduler variant based on remaining execution time. Typcically, a lottery scheduler uses fixed tickets to represent CPU share. More of a hybrid between STCF and Lottery schedulers.
+
 Each scheduler dynamically prints the current process (if any) running at every second.
 At the end (when every process has completed executing) key metrics are printed for each process
 These metrics are : Arrival Time, Completion Time, Turnaround Time (Completion - Arrival), Response Time (When the process was first executed by the CPU)
@@ -208,3 +210,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
