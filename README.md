@@ -1,5 +1,5 @@
 # CPU-Scheduler-Visualizer
-a CPU scheduler visualizer built in Python, imitates First in First Out, Shortest Time to Competition First, Round Robin schedulers.
+A CPU scheduler visualizer built in Python, imitates First in First Out, Shortest Time to Competition First, Round Robin and Lottery Schedulers.
 A process can be instantiated as Process(x,y,z) where
 x is the time of arrival of the process
 y is the total amount of seconds the process takes to complete
